@@ -1,0 +1,42 @@
+html,body{
+	font-size: 13px;
+}
+.resume{
+	margin:0 auto;
+/*	border:1px solid rgb(200,200,200);*/	
+	width: 595px;
+	height: 842px;
+}
+.resume-left{
+	float: left;
+	width:33%;
+	height:100%;
+	background-color:#1c85c6;
+}
+.resume-right{
+	float: right;
+	width:67%;
+	height: 100%;
+}
+.resume-head{
+	text-align:center;
+	color:#fff; 
+	padding: 50px 0 10px 0;
+}
+.resume-head>img{
+	width: 100px;
+}
+.resume-left>h2{
+	text-align:center;
+	color:#1c85c6;
+	padding: 5px 0;
+	background-color:#fff;
+	margin: 0;
+}
+.resume-content{
+	padding: 20px;
+	color:#FFFFFF;
+}
+.resume-content>p{
+	margin: 10px;
+}
