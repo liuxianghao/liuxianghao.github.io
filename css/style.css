@@ -39,4 +39,13 @@ html,body{
 }
 .resume-content>p{
 	margin: 10px;
+	word-break:break-all;
+}
+.resume-content>p>a{
+	color:#e8c7c3;
+	text-decoration: none;
+}
+.resume-content>p>a:hover{
+	text-decoration:underline;
+	
 }
