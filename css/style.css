@@ -1,9 +1,15 @@
 html,body{
 	font-size: 13px;
 }
+.icon {
+   width: 1em; height: 1em;
+   vertical-align: -0.15em;
+   fill: currentColor;
+   overflow: hidden;
+}
 .resume{
 	margin:0 auto;
-/*	border:1px solid rgb(200,200,200);*/	
+/*	border:1px solid rgb(200,200,200); */	
 	width: 595px;
 	height: 842px;
 }
@@ -17,6 +23,10 @@ html,body{
 	float: right;
 	width:67%;
 	height: 100%;
+	padding: 80px 20px;
+    box-sizing: border-box;
+}
+.resume-right .box{
 }
 .resume-head{
 	text-align:center;
@@ -37,15 +47,25 @@ html,body{
 	padding: 20px;
 	color:#FFFFFF;
 }
-.resume-content>p{
+.resume-content > p{
 	margin: 10px;
 	word-break:break-all;
 }
-.resume-content>p>a{
+.resume-content > p > a{
 	color:#e8c7c3;
 	text-decoration: none;
 }
-.resume-content>p>a:hover{
+.resume-content > p > a:hover{
 	text-decoration:underline;
 	
+}
+.box > .head{
+	color: #1C85C6;
+	border-bottom: 1px solid #1C85C6;
+}
+.box > .head > h2{
+	display:inline-block;
+}
+.box > .head > .icon{
+	font-size:20px;
 }
