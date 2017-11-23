@@ -1,71 +1,121 @@
-html,body{
+html,
+body {
 	font-size: 13px;
 }
-.icon {
-   width: 1em; height: 1em;
-   vertical-align: -0.15em;
-   fill: currentColor;
-   overflow: hidden;
+ul, h2, ol  {
+	margin: 0;
 }
-.resume{
-	margin:0 auto;
-/*	border:1px solid rgb(200,200,200); */	
+.clearfix:after,
+.clearfix:before{
+	content: ' ';
+	display: table;
+}
+.clearfix:after{
+	clear: both;
+}
+.icon {
+	width: 1em;
+	height: 1em;
+	vertical-align: -0.15em;
+	fill: currentColor;
+	overflow: hidden;
+}
+
+.resume {
+	margin: 0 auto;
+	/*	border:1px solid rgb(200,200,200); */
 	width: 595px;
 	height: 842px;
 }
-.resume-left{
+
+.resume-left {
 	float: left;
-	width:33%;
-	height:100%;
-	background-color:#1c85c6;
+	width: 33%;
+	height: 100%;
+	background-color: #1c85c6;
 }
-.resume-right{
+
+.resume-right {
 	float: right;
-	width:67%;
+	width: 67%;
 	height: 100%;
 	padding: 80px 20px;
-    box-sizing: border-box;
+	box-sizing: border-box;
+	background-color: #f8f8f8;
 }
-.resume-right .box{
+
+.resume-right .box h2{
+	margin: 5px 0;
 }
-.resume-head{
-	text-align:center;
-	color:#fff; 
+
+.resume-head {
+	text-align: center;
+	color: #fff;
 	padding: 50px 0 10px 0;
 }
-.resume-head>img{
+
+.resume-head>img {
 	width: 100px;
 }
-.resume-left>h2{
-	text-align:center;
-	color:#1c85c6;
+
+.resume-left>h2 {
+	text-align: center;
+	color: #1c85c6;
 	padding: 5px 0;
-	background-color:#fff;
+	background-color: #f8f8f8;
 	margin: 0;
 }
-.resume-content{
+
+.resume-content {
 	padding: 20px;
-	color:#FFFFFF;
+	color: #FFFFFF;
 }
-.resume-content > p{
+
+.resume-content > p {
 	margin: 10px;
-	word-break:break-all;
+	word-break: break-all;
 }
-.resume-content > p > a{
-	color:#e8c7c3;
+
+.resume-content > p > a {
+	color: #e8c7c3;
 	text-decoration: none;
 }
-.resume-content > p > a:hover{
-	text-decoration:underline;
-	
+
+.resume-content > p > a:hover {
+	text-decoration: underline;
 }
-.box > .head{
+
+.box > .head {
 	color: #1C85C6;
 	border-bottom: 1px solid #1C85C6;
 }
-.box > .head > h2{
-	display:inline-block;
+
+.box > .head > h2 {
+	display: inline-block;
 }
-.box > .head > .icon{
-	font-size:20px;
+
+.box > .head > .icon {
+	font-size: 20px;
 }
+
+.content-head > span {
+	display: inline-block;
+	width: 50%;
+	box-sizing: border-box;
+	padding: 10px;
+	
+}
+
+.content-head > span:last-child {
+	text-align: right;
+}
+.info-list {
+	margin-bottom: 5px;
+}
+ol.info-list{
+	margin-top: 10px;
+}
+.info-list > li {
+	color: #aaa;
+}
+
