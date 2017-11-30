@@ -118,4 +118,19 @@ ol.info-list{
 .info-list > li {
 	color: #aaa;
 }
-
+/**********************************************************/
+/*响应式设计*/
+@media screen and (max-width: 600px) {
+    .resume {
+    	width: 100%;
+    }
+    .resume-head>img {
+    	max-width: 100%;
+    }
+    .resume-content {
+    	padding: 10px;
+    }
+    .resume-content > p {
+    	margin: 10px 0;
+    }
+}
